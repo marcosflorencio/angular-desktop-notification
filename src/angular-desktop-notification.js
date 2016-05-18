@@ -4,8 +4,8 @@
   .module('DesktopNotification', [])
   .factory('notification', notification);
   
-   notification.$injec = ['$timeout'];
-   function notification($timeout){
+   notification.$injec = [];
+   function notification(){
     var factory = {
       push : push,
     };
