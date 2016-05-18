@@ -4,7 +4,7 @@
   .module('DesktopNotification', [])
   .factory('notification', notification);
   
-   notification.$injec = [];
+   notification.$inject = [];
    function notification(){
     var factory = {
       push : push,
